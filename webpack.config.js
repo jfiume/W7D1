@@ -3,7 +3,7 @@ let path = require('path');
 module.exports = {
   entry: './frontend/todo_redux.jsx',
   output: {
-    filename: './bundle.js',
+    filename: './Todo_App/app/assets/javascripts/bundle.js',
   },
   module: {
     loaders: [
